@@ -640,6 +640,16 @@ pre code {
           flex-grow: 1;
   max-width: 100%;
 }
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Плавен hover ефект с преход на transform свойството */
+}
+
+/* Hover ефект - уголемяване на картинката */
+.portfolio-item:hover img {
+  transform: scale(1.05); 
+}
 
 .col-auto {
   -webkit-box-flex: 0;
